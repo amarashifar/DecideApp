@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Set your OpenAI API key here
-openai.api_key = "YOU OWN"
+openai.api_key = "SET API KEY HERE"
 
 
 def generate_recommendation(prompt):
