@@ -5,12 +5,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Set your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = "YOU OWN"
 
 
 def generate_recommendation(prompt):
     response = openai.Completion.create(
-        engine="text-davinci-002",  # Use a supported engine
+        engine="text-davinci-003",  # Use a supported engine
         prompt=prompt,
         max_tokens=50,
         n=1,
