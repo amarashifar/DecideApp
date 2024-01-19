@@ -24,7 +24,7 @@ pip install streamlit openai pandas matplotlib
 
 ## OpenAI Language Model
 
-The app uses OpenAI's text-davinci-002 language model to generate food recommendations based on user queries.
+The app uses OpenAI's text-davinci-003 language model to generate food recommendations based on user queries.
 
 ## Recommendation Statistics
 
